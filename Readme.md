@@ -1,0 +1,3 @@
+# The purpose of callbacks and why they are used is: sometimes when looking for data in a file it can take a long time (if the function is synchroneous). Callbacks help to cut down the time it takes to search through a file's data by allowing for the functions in the file to run simultaneously while the file is getting this data.
+
+One instance where a callback is used is when a function is parsing through a JSON file. This can take a long time, but if the functions in the file are running simultntously, the time will be cut down.   
