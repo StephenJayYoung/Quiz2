@@ -1,5 +1,6 @@
-module.exports = function (obj, args) {
-  var negate = flag(obj, 'negate')
-    , expr = args[0];
-  return negate ? !expr : expr;
+module.exports.gimmeFullName = function(person) {
+  var gimmeFullName = person.firstName + person.Lastname
+};
+return gimmeFullName;
+console.log()gimmeFullName;
 };
